@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-section">
+        <input type="text" placeholder="Enter the Task" id="task" />
+        <button id="submit-btn">Add</button>
+      </div>
+      <div class="task-wrapper">
+        <div class="task-section">
+          <h2>Tasks to-do</h2>
+          <div id="task-box" class="task-box"></div>
+          <button id="remove-btn">Remove Completed Tasks</button>
+        </div>
+        <div class="completed-section">
+          <h2>Completed Tasks</h2>
+          <div id="completion-box" class="completion-box"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
