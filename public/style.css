@@ -34,6 +34,10 @@ button {
   border-radius: 4px;
 }
 
+h1 {
+  text-align: center;
+}
+
 button:hover {
   background-color: #45a049;
 }
@@ -53,8 +57,12 @@ button:hover {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  max-height: 200px;
+  height: 200px;
   overflow-y: auto;
+}
+
+#remove-btn {
+  margin: 10px;
 }
 
 .task,
